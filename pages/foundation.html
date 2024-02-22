@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+      body{
+        background-color: bisque;
+      }
+    </style>
+</head>
+<body>
+<!-- header -->
+  <header>
+    <div class="headline">
+      <div>
+      <h1 class="h1"> BXEPT GROUPS </h1><br>
+      </div>
+    <div style="display: flex; justify-content: space-around;">
+      <a id="a" href="https://www.facebook.com/abi.sap.10?mibextid=ZbWKwL"><i class="fa fa-facebook-official"></i></a>
+      <a id="a" href="https://youtube.com/@abigailsapong4899?si=eX4CopibEL8I9kyT"><i class="fa fa-youtube"></i></a>
+      <a id="a" href="https://x.com/Abigail29266244?t=JYLlqCbHydNCr0t7aEKCog&s=09"><i class="fa fa-twitter"></i></a>
+      <a id="a" href="https://instagram.com/abi.sap.84?igshid=MzMyNGUyNmU2YQ=="><i class="fa fa-instagram"></i></a>
+      <a id="a" href="https://www.linkedin.com/in/abigail-sapong-915923198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a>
+    </div>
+    </div>
+  </header>  
+
+<!-- nav bar -->
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html" class="active">Home</a>
+    <a href="aboutUs.html">About Us</a>
+      <div class="dropdown">
+        <button class="dropbtn">Subsidiary 
+         <i class="fa fa-caret-down"></i>
+         </button>
+        <div class="dropdown-content">
+    <a href="school.html">Be an Exception Int. Sch.</a>
+    <a href="farm.html">BE Farms</a>
+    <a href="plastics.html">BE Plastics</a>
+    </div>
+    </div> 
+    <a href="foundation.html">Foundation</a>
+    <a href="contactUs.html">Contact Us</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+<!-- Body -->
+<h1 class="shadow" style="color: rgb(3, 82, 82);"> BXEPT FOUNDATION </h1>
+<div class="found">
+  <p>Bxept Foundation was set up in 1999 to support the work of 
+  NGO's seeking to relieve poverty, ensure safe sanitation and healthy 
+  communities, advocate for quality education, involved in environmental sustainability
+  and also talks about economic development.</p>
+  <p>Bxept also support individuals who needs support to learn a skill to improve
+    their lives. We also support individuals who need financial assistance in education, enteprenuership e.t.c.</p>
+  <p>We hold conferences, bussiness seminars, enteprenuership conferences and many other. We currently operate in 10 regions
+    and working towards reaching the other regions and beyond the nation.
+  </p><br><br>
+</div>
+
+<div class="found1">
+  <div>
+    <img id="found1" src="../images/Foundation/school.png" alt="school">
+    <p style="margin-top: 100px;">A school building built for the community</p>
+  </div>
+  <div>
+    <img id="found1" src="../images/Foundation/road.png" alt="road">
+    <p style="margin-top: 100px;">Road construction for the community</p>
+  </div>
+</div>
+<div class="found1">
+  <div>
+    <img id="found1" src="../images/Foundation/orphan.png" alt="school">
+    <p style="margin-top: 100px;">A visit to an orphanage</p>
+  </div>
+  <div>
+    <img id="found1" src="../images/Foundation/skill.png" alt="road">
+    <p style="margin-top: 100px;">Teaching the community some skill training</p>
+  </div> 
+</div><br><br>
+
+<div  class="found2">
+  <div class="container">
+    <h1>Fill this form to support us </h1><br>
+    <form id="infoForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="occupation">Occupation:</label>
+            <input type="text" id="occupation" required>
+        </div>
+        <div class="form-group">
+          <label for="occupation">Kind of support:</label>
+          <input type="text" id="occupation" required>
+      </div>
+
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+        </div>
+
+        <button class="button" type="button" onclick="collectInformation()">Submit</button>
+    </form>
+</div>
+<br>
+<div class="container">
+  <h1>Fill this out to be supported</h1><br>
+  <form id="infoForm">
+      <div class="form-group">
+          <label for="names">Name:</label>
+          <input type="text" id="names" required>
+      </div>
+
+      <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number" id="age" required>
+      </div>
+
+      <div class="form-group">
+          <label for="emails">Email:</label>
+          <input type="email" id="emails" required>
+      </div>
+
+      <div class="form-group">
+          <label for="occupation">How do you want to be supported:</label>
+          <input type="text" id="occupation" required>
+      </div>
+
+      <div class="form-group">
+          <label for="location">Location:</label>
+          <input type="text" id="location" required>
+      </div>
+
+      <button class="button" type="button" onclick="collectInformations()">Submit</button>
+  </form>
+</div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="footer">
+    <div class="footer1">
+      <h2>CONTACT US</h2><br>
+      <a id="a" href="https://www.facebook.com/abi.sap.10?mibextid=ZbWKwL"><i class="fa fa-facebook-official"></i></a> <span class="footerr" >Facebook </span><br><br>
+          <a id="a" href="https://youtube.com/@abigailsapong4899?si=eX4CopibEL8I9kyT"><i class="fa fa-youtube"></i></a> <span class="footerr" >Youtube </span><br><br>
+          <a id="a" href="https://x.com/Abigail29266244?t=JYLlqCbHydNCr0t7aEKCog&s=09"><i class="fa fa-twitter"></i></a> <span class="footerr" >Twitter</span> <br><br>
+          <a id="a" href="https://instagram.com/abi.sap.84?igshid=MzMyNGUyNmU2YQ=="><i class="fa fa-instagram"></i></a> <span class="footerr" >Instagram </span> <br><br>
+          <a id="a" href="https://www.linkedin.com/in/abigail-sapong-915923198?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin"></i></a> <span class="footerr" >Linkedin</span> <br><br>
+          <a id="a" href="#"><i class="fa fa-phone"></i></a> <span class="footerr" >+233 548978779</span> <br><br> <br>
+    </div>
+  
+    <div class="footer2">
+      <h2>LOCATION</h2><br>
+        <h3> <u>Bxept Accra H/O </u></h3>
+        <p>Park Lane · 0203450725 <br>
+          Open 8:00am  ⋅ Closes 5:00pm</p> <br>
+  
+        <h3> <u> Bxept Eastern H/O </u></h3>
+        <p>Koforidua · 0203450726 <br>
+          Open 8:00am  ⋅ Closes 5:00pm</p> <br>
+  
+        <h3> <u>Bxept Ashanti H/O </u></h3>
+        <p>Kumasi · 0203450727 <br>
+          Open 8:00am  ⋅ Closes 5:00pm</p> <br>
+  
+        <h3> <u>Bxept Northern H/O </u></h3>
+        <p>Tamale · 0203450728 <br>
+         Open 8:00am  ⋅ Closes 5:00pm</p> <br>
+  
+    </div>
+  
+    <div class="footer3">
+      <h2>MAPS</h2><br><br>
+      <a id="foot" href="https://maps.app.goo.gl/c7STT8GSZVHwfx1i8">Accra Branch</a> <br><br><br>
+      <a id="foot" href="https://maps.app.goo.gl/xDo3Sv5a5LHkwgSb8">Koforidua Branch</a> <br><br><br>
+      <a id="foot" href="https://maps.app.goo.gl/nVL5xghicHMjQq546">Kumasi Branch</a> <br><br><br>
+      <a id="foot" href="https://maps.app.goo.gl/kLWJpgbkppDb9w5x5">Tamale Branch</a>
+    </div><br> <br> <br> 
+  </div>
+    <p style="text-align: center;">© 2024 Bxepts Groups of Companies. All Rights Reserved.</p>
+  </footer>
+  <script src="../src/index.js">
+</script>  
+</body>
+</html>
